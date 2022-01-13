@@ -1,0 +1,22 @@
+{
+    "name": "UnityUtils.UI",
+    "rootNamespace": "UnityUtils.UI",
+    "references": [
+        "GUID:4815d965c280bef40bc5ebceb34690a7",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:d9a0debde224c644c99071742e7875da",
+        "GUID:9104f28baed89644286c65222185ea59",
+        "GUID:29492541a59d04a81b47a7f225e8a22d",
+        "GUID:14165214884ae4a619bfb290f28194a7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

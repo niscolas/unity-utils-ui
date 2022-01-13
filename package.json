@@ -1,0 +1,12 @@
+{
+    "name": "com.niscolas.unity-utils.ui",
+    "version": "0.1.0",
+    "displayName": "UnityUtils.UI",
+    "unity": "2019.1",
+    "dependencies": {
+        "com.cysharp.unitask": "2.2.5",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.unity-atoms.unity-atoms-base-atoms": "4.4.3",
+        "com.unity-atoms.unity-atoms-core": "4.4.3"
+    }
+}
