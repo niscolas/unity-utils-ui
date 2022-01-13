@@ -7,7 +7,7 @@ using UnityEngine;
 namespace niscolas.UnityUtils.UI
 {
     [AddComponentMenu(Constants.AddComponentMenuPrefix + "Simple Timer")]
-    public class SimpleTimerMB : CachedMonoBehaviour
+    public class SimpleTimerMB : CachedMB
     {
         [SerializeField]
         private TMP_Text _timeLeftText;

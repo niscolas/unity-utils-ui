@@ -8,7 +8,7 @@ using UnityEngine.Events;
 namespace niscolas.UnityUtils.UI
 {
     [AddComponentMenu(Constants.AddComponentMenuPrefix + "Better Canvas Group")]
-    public class CanvasGroupManagerMB : CachedMonoBehaviour
+    public class CanvasGroupManagerMB : CachedMB
     {
         [SerializeField]
         private CanvasGroup _canvasGroup;

@@ -8,7 +8,7 @@ using UnityEngine.Serialization;
 namespace niscolas.UnityUtils.UI
 {
     [AddComponentMenu(Constants.AddComponentMenuPrefix + "Advanced Button")]
-    public class AdvancedButtonMB : CachedMonoBehaviour,
+    public class AdvancedButtonMB : CachedMB,
         IPointerClickHandler,
         IPointerDownHandler,
         IPointerUpHandler,

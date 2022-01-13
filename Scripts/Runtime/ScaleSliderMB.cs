@@ -7,7 +7,7 @@ using UnityEngine.Animations;
 namespace niscolas.UnityUtils.UI
 {
     [AddComponentMenu(Constants.AddComponentMenuPrefix + "Scale Slider")]
-    public class ScaleSliderMB : CachedMonoBehaviour
+    public class ScaleSliderMB : CachedMB
     {
         [SerializeField]
         private Transform _fill;

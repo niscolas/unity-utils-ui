@@ -6,7 +6,7 @@ using UnityEngine;
 namespace niscolas.UnityUtils.UI
 {
     [AddComponentMenu(Constants.AddComponentMenuPrefix + "Rich Text Updater")]
-    public class SimpleTextInsertMB : CachedMonoBehaviour
+    public class SimpleTextInsertMB : CachedMB
     {
         [SerializeField]
         private TMP_Text _text;

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace niscolas.UnityUtils.UI
 {
-    public abstract class BaseBindTextMB<T, P, V, E1, E2, EI, ER, F, VI> : CachedMonoBehaviour,
+    public abstract class BaseBindTextMB<T, P, V, E1, E2, EI, ER, F, VI> : CachedMB,
         IAtomListener<T>
         where P : struct, IPair<T>
         where V : AtomVariable<T, P, E1, E2, F>
