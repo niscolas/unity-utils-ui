@@ -13,10 +13,10 @@ namespace niscolas.UnityUtils.UI
         private Transform _fill;
 
         [SerializeField]
-        private FloatReference _minScale = new(0);
+        private FloatReference _minScale = new FloatReference(0);
 
         [SerializeField]
-        private FloatReference _maxScale = new(1f);
+        private FloatReference _maxScale = new FloatReference(1f);
 
         [EnumToggleButtons]
         [SerializeField]

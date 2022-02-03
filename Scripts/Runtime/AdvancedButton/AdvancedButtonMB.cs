@@ -15,13 +15,13 @@ namespace niscolas.UnityUtils.UI
         IAdvancedButton
     {
         [SerializeField]
-        private FloatReference _maxTapTime = new(0.5f);
+        private FloatReference _maxTapTime = new FloatReference(0.5f);
 
         [SerializeField]
-        private FloatReference _maxDoubleTapInterval = new(0.5f);
+        private FloatReference _maxDoubleTapInterval = new FloatReference(0.5f);
 
         [SerializeField]
-        private FloatReference _minHoldTime = new(0.6f);
+        private FloatReference _minHoldTime = new FloatReference(0.6f);
 
         [Header("Events")]
         [SerializeField]
